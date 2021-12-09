@@ -1,0 +1,116 @@
+body {
+    font-family: -apple-system, BlincMacSystemFont, 'Segoe UI', 'Roboto', sans-serif, 'Tahoma';
+
+    margin: 0;
+}
+
+
+.head {
+    height: 50px;
+    width: 100%;
+
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #17a439;
+    color: white;
+    margin: 0 5px;
+
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: #0096d9 !important;
+}
+
+.inline {
+    display: inline-block !important;
+}
+
+.no-inline {
+    display: block !important;
+}
+.fl-r {
+    float: right;
+}
+
+.fl-l {
+    float: left;
+}
+
+.f-s16 {
+    font-size: 14px !important;
+}
+
+.body {
+    margin: 25px;
+}
+
+.news-block {
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+}
+
+.news-item {
+    margin: 10px 0;
+    min-height: 150px;
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    padding: 0 10px;
+}
+
+.news-head {
+    height: 50px;
+    border-bottom: 1px solid #dbdbdb;
+    line-height: 50px;
+
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 18px;
+    color: #555;
+
+    margin: 25px 0;
+}
+
+.caption span {
+    padding: 0 25px;
+    min-width: 150px;
+}
+
+.content {
+    color: #555;
+}
+
+.content .elements {
+    font-size: 14px;
+    color: #555;
+
+    margin: 10px 0;
+    padding: 0 10px;
+    line-height: 15px;
+
+    max-width: 100px;
+}
+
+.elem-button {
+    cursor: pointer;
+    padding: 5px !important;
+}
+
+.elem-button:hover {
+    background-color: #0096d9;
+    color: white;
+}
